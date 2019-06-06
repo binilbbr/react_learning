@@ -1,0 +1,19 @@
+{
+  "name": "react-boiler-plate",
+  "version": "1.0.0",
+  "description": "react-redux-saga boiler plate with webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shamilykr/react-boiler-plate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shamilykr/react-boiler-plate/issues"
+  },
+  "homepage": "https://github.com/shamilykr/react-boiler-plate#readme"
+}
