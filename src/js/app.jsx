@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import styles from './styles';
+
 class Welcome extends React.Component {
   constructor(props) {
     super(props);
@@ -13,7 +15,7 @@ class Welcome extends React.Component {
   render() {
     return (
       <div style={{textAlign: 'center'}}>
-        <h1>Welcome</h1>
+        <h1 style={styles.heading}>Welcome</h1>
         <p>Hello {this.state.name}</p>
         <input onChange={this.handleChange} defaultValue={this.state.name}/>
       </div>
