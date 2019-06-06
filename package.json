@@ -4,7 +4,8 @@
   "description": "react-redux-saga boiler plate with webpack",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "serve": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/shamilykr/react-boiler-plate/issues"
   },
-  "homepage": "https://github.com/shamilykr/react-boiler-plate#readme"
+  "homepage": "https://github.com/shamilykr/react-boiler-plate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.2"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^3.6.0"
+  }
 }
