@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './style.css'
-class EmployeList extends React.Component {
+class EmployeeList extends React.Component {
   componentDidMount() {
     if (this.props.init) {
       this.props.init();
@@ -47,12 +47,12 @@ class EmployeList extends React.Component {
   }
 }
 
-EmployeList.propTypes = {
+EmployeeList.propTypes = {
   data: PropTypes.shape({})
 };
 
-EmployeList.defaultProps = {
+EmployeeList.defaultProps = {
   data: []
 };
 
-export default EmployeList;
+export default EmployeeList;
