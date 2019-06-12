@@ -1,0 +1,51 @@
+[
+    {
+      "name": "John Doe",
+      "gender": "male",
+      "address": "Address 1",
+      "phone": "99989898",
+      "department": "IT-Department"
+    },
+    {
+      "name": "Steve Johnson",
+      "gender": "male",
+      "address": "Address 1",
+      "phone": "73456778546",
+      "department": "HR"
+    },
+    {
+      "name": "Badsha",
+      "gender": "male",
+      "address": "Address 1",
+      "phone": "66756756",
+      "department": "Designing"
+    },
+    {
+      "name": "Rayan Joe",
+      "gender": "male",
+      "address": "Address 1",
+      "phone": "2456547",
+      "department": "IT-Department"
+    },
+    {
+      "name": "Nayem",
+      "gender": "female",
+      "address": "Address 1",
+      "phone": "12987875",
+      "department": "Web developement"
+    },
+    {
+      "name": "Ashraf Hossain",
+      "gender": "male",
+      "address": "Address 1",
+      "phone": "988487856345",
+      "department": "Engineering"
+    },
+    {
+      "name": "Anu",
+      "gender": "female",
+      "address": "Address 1",
+      "phone": "73456778546",
+      "department": "HR"
+    }
+  ]
