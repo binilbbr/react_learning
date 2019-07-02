@@ -1,5 +1,4 @@
 import Immutable from 'immutable';
-import page1 from './data.json';
 
 const defaultState = Immutable.fromJS({
   employeeList: []
@@ -8,7 +7,7 @@ const defaultState = Immutable.fromJS({
 export default (state = defaultState, action) => {
   switch (action.type) {
     case 'EMPLOYEE:LIST:INIT':
-      return state.set('employeeList', page1);
+      return state.set('employeeList', action.data);
     default:
       return state;
   }

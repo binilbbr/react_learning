@@ -1,16 +1,18 @@
 import { connect } from 'react-redux';
-import EmployeeList from './employeeList.jsx';
+import EmployeeList from './employeeList';
 
-export { default as reducers } from './reducers';
+function mapStateToProps(state) {
+  return {
+    data: state.employeeList.get('employeeList')
+  };
+}
 
-const mapStateToProps = state => ({
-  data: state.employeeList.get('employeeList')
-});
-
-const mapDispatchToProps = dispatch => ({
-  init: () => {
-    dispatch({ type: 'EMPLOYEE:LIST:INIT' });
-  }
-});
+function mapDispatchToProps(dispatch) {
+  return {
+    fetchEmployeeList: () => {
+      dispatch({ type: 'EMPLOYEE_LIST:LIST:FETCH' });
+    }
+  };
+}
 
 export default connect(mapStateToProps, mapDispatchToProps)(EmployeeList);

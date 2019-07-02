@@ -1,22 +1,22 @@
 export default {
- rootStyle: {
+  rootStyle: {
     display: 'flex',
     justifyContent: 'center',
     marginTop: 50,
     fontSize: 16,
     fontFamily: 'Roboto'
- },
- fieldStyle: {
+  },
+  fieldStyle: {
     display: 'flex',
     marginTop: 20
- },
- fieldNameStyle: {
+  },
+  fieldNameStyle: {
     width: 90
- },
- inputStyle: {
+  },
+  inputStyle: {
     height: 30
- },
- buttonStyle: {
+  },
+  buttonStyle: {
     marginTop: 20
- }
-}
+  }
+};
