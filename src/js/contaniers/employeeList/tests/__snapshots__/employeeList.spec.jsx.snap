@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`containers/employeeList With out url and user id 1`] = `
+<div
+  style={
+    Object {
+      "marginTop": 20,
+    }
+  }
+>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "margin": 20,
+      }
+    }
+    type="button"
+  >
+    Add Employee
+  </button>
+  <div
+    style={
+      Object {
+        "margin": 20,
+      }
+    }
+  >
+    <table
+      style={
+        Object {
+          "border": "1px solid",
+          "width": "100%",
+        }
+      }
+    >
+      <tr
+        style={
+          Object {
+            "backgroundColor": "#8FA7DA",
+            "border": "1px solid",
+            "height": 50,
+          }
+        }
+      >
+        <th>
+          Name
+        </th>
+        <th>
+          Gender
+        </th>
+        <th>
+          Address
+        </th>
+        <th>
+          Phone
+        </th>
+        <th>
+          Department
+        </th>
+      </tr>
+    </table>
+  </div>
+</div>
+`;
+
+exports[`containers/employeeList with url and user id 1`] = `
+<div
+  style={
+    Object {
+      "marginTop": 20,
+    }
+  }
+>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "margin": 20,
+      }
+    }
+    type="button"
+  >
+    Add Employee
+  </button>
+  <div
+    style={
+      Object {
+        "margin": 20,
+      }
+    }
+  >
+    <table
+      style={
+        Object {
+          "border": "1px solid",
+          "width": "100%",
+        }
+      }
+    >
+      <tr
+        style={
+          Object {
+            "backgroundColor": "#8FA7DA",
+            "border": "1px solid",
+            "height": 50,
+          }
+        }
+      >
+        <th>
+          Name
+        </th>
+        <th>
+          Gender
+        </th>
+        <th>
+          Address
+        </th>
+        <th>
+          Phone
+        </th>
+        <th>
+          Department
+        </th>
+      </tr>
+    </table>
+  </div>
+</div>
+`;

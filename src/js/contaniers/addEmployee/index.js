@@ -1,10 +1,7 @@
 import { connect } from 'react-redux';
 import AddEmployee from './addEmployee';
 
-function mapStateToProps(state) {
-  return {
-    data: state.employeeList.get('employeeList')
-  };
+function mapStateToProps() {
 }
 
 function mapDispatchToProps(dispatch) {

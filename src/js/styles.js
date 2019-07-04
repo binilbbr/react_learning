@@ -1,5 +1,5 @@
 export default {
   heading: {
-    color: 'red',
+    color: 'red'
   }
 };

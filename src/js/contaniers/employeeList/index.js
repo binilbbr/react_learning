@@ -3,7 +3,7 @@ import EmployeeList from './employeeList';
 
 function mapStateToProps(state) {
   return {
-    data: state.employeeList.get('employeeList')
+    data: state.employeeList.employeeList
   };
 }
 

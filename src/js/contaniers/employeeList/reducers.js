@@ -1,6 +1,6 @@
-import Immutable from 'immutable';
+import Immutable from 'seamless-immutable';
 
-const defaultState = Immutable.fromJS({
+const defaultState = Immutable({
   employeeList: []
 });
 
