@@ -1,8 +1,6 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-
-import Employees from '../contaniers/employeeList';
-import AddEmployee from '../contaniers/addEmployee';
+import Employees from '../containers/employeeList';
 
 class RootLayout extends React.Component {
   render() {
@@ -11,7 +9,6 @@ class RootLayout extends React.Component {
         <div style={{ height: 60, backgroundColor: '#8EA5D5' }} />
         <Switch>
           <Route exact={true} path="/" component={Employees} />
-          <Route exact={true} path="/addEmployee" component={AddEmployee} />
         </Switch>
       </div>
     );

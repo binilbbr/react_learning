@@ -16,22 +16,10 @@ class EmployeeList extends React.Component {
     }
   }
 
-  handleAddEmployeeButton = () => {
-    const { router } = this.context;
-    router.history.push('/addEmployee');
-  }
-
   render() {
     const { data } = this.props;
     return (
       <div style={{ marginTop: 20 }}>
-        <button
-          type="button"
-          style={{ margin: 20 }}
-          onClick={this.handleAddEmployeeButton}
-        >
-        Add Employee
-        </button>
         <div style={{ margin: 20 }}>
           <table style={{ border: '1px solid', width: '100%' }}>
             <tr style={{ border: '1px solid', height: 50, backgroundColor: '#8FA7DA' }}>

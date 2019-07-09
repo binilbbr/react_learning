@@ -1,11 +1,9 @@
 import { takeEvery } from 'redux-saga';
 
-import fetchEmployees from '../contaniers/employeeList/sagas';
-import addEmployee from '../contaniers/addEmployee/sagas';
+import fetchEmployees from '../containers/employeeList/sagas';
 
 const sagas = [
-  [takeEvery, 'EMPLOYEE_LIST:LIST:FETCH', fetchEmployees],
-  [takeEvery, 'ADD_EMPLOYEE:ADD', addEmployee]
+  [takeEvery, 'EMPLOYEE_LIST:LIST:FETCH', fetchEmployees]
 ];
 
 function* rootSaga() {
