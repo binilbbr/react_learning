@@ -2,14 +2,14 @@ import { createLogger } from 'redux-logger';
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import createSagaMiddleware from 'redux-saga';
 
-import reducers from './reducers/index';
-import sagas from './sagas';
+import reducers from './reducers/index'; // reducer of all components
+import sagas from './sagas';// sagas for all compenents
 
-const sagaMiddleware = createSagaMiddleware();
+const sagaMiddleware = createSagaMiddleware();//call gen fn
 
 const rootReducer = combineReducers(Object.assign({}, reducers));
 
-const middlewares = [];
+const middlewares = [];//
 
 /* eslint-disable no-underscore-dangle */
 const composeEnhancers = (typeof window === 'object'
@@ -27,5 +27,5 @@ middlewares.push(sagaMiddleware);
 
 export const store = composeEnhancers(applyMiddleware(...middlewares))(createStore)(rootReducer);
 
-sagaMiddleware.run(sagas);
+sagaMiddleware.run(sagas); // saga part
 export default 'store';

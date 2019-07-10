@@ -1,0 +1,12 @@
+div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.outerDiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

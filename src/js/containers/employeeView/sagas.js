@@ -1,12 +1,12 @@
 import { put } from 'redux-saga/effects';
 
-export default function* fetchEmployees() {
+export default function* fetchEmployee() {debugger
   try { //http://localhost:3000/v1/employees
-    const data = yield fetch(' http://www.mocky.io/v2/5d15d2c40e00000b41a11517')
+    const data = yield fetch('http://www.mocky.io/v2/5d242f9a2f000048002416e5')
       .then(res => res.json());
       
     console.log("inside saga.js: "+ data)  
-    yield put({ type: 'EMPLOYEE:LIST:INIT', data });//disaptch to store
+    yield put({ type: 'EMPLOYEE:VIEW:INIT', data });//disaptch to store
   } catch {
     yield put({ type: 'EMPLOYEE:LIST:FAIL' });
   }
